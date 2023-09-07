@@ -19,5 +19,8 @@ public class SetExamples {
         System.out.println(setHash); // [r, t, u, h, k, l, o]
 
 
+
+        Set<String> setLinked = new LinkedHashSet<>();
+        
     }
 }
