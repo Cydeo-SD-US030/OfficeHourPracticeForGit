@@ -20,7 +20,11 @@ public class SetExamples {
 
 
 
-        Set<String> setLinked = new LinkedHashSet<>();
+        Set<String> setLinked = new LinkedHashSet<>(); // keeps insertion order
+        setLinked.addAll(list);
+        System.out.println(setLinked);
+
+
         
     }
 }
