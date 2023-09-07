@@ -25,6 +25,9 @@ public class SetExamples {
         System.out.println(setLinked);
 
 
-        
+        Set<String> setTree = new TreeSet<>(); // does not take null, sorts them in asc order
+        setTree.addAll(list);
+        // setTree.add(null);
+        System.out.println(setTree);
     }
 }
